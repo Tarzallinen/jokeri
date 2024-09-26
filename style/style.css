@@ -1,0 +1,20 @@
+
+button {
+    
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color:rgba(222, 251, 255, 0.451);
+    padding: 5px;
+}
+
+
+table { 
+    border-spacing: 10px;
+    text-align: center;
+    
+}
+
+th,td {border: 1px solid black;
+    border-radius: 10px;
+    background-color:rgba(255, 254, 188, 0.451);
+    padding: 8px;}
