@@ -1,11 +1,11 @@
 
-document.addEventListener('DOMContentLoaded', function () {
-    const table = document.querySelector('table')
-    const uusirivi = document.querySelector('button')
-    const uusilukum = document.querySelector('p')
-    let riviluku = 0
 
-    uusirivi.addEventListener('click', arvonta)
+const table = document.querySelector('table')
+const uusirivi = document.querySelector('button')
+const uusilukum = document.querySelector('p')
+let riviluku = 0
+
+uusirivi.addEventListener('click', arvonta)
 
     function arvonta() {
         const row = table.insertRow()
@@ -17,5 +17,4 @@ document.addEventListener('DOMContentLoaded', function () {
         
         riviluku++
         uusilukum.textContent = `Arvottuja rivejä: ${riviluku}`
-    }
-})
+}
